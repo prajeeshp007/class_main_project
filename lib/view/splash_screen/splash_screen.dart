@@ -1,6 +1,6 @@
 import 'package:class_main_project/utils/constance/color_constance.dart';
 import 'package:class_main_project/utils/constance/image_constance.dart';
-import 'package:class_main_project/view/bottom_nav_bar/bottom_nav_bar.dart';
+
 import 'package:class_main_project/view/login_screen/login_screen.dart';
 import 'package:flutter/material.dart';
 

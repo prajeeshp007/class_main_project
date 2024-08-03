@@ -16,7 +16,7 @@ class LoginScreen extends StatelessWidget {
       ),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-        child: SingleChildScrollView(
+        child: Expanded(
           child: Column(
             children: [
               Text(
@@ -79,9 +79,7 @@ class LoginScreen extends StatelessWidget {
                     label: Text('Enter mobile number'),
                     suffixIcon: Icon(Icons.info_outline)),
               ),
-              SizedBox(
-                height: 240,
-              ),
+              Spacer(),
               Column(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
