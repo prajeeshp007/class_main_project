@@ -31,7 +31,9 @@ class _SplashScreenState extends State<SplashScreen> {
     return Scaffold(
       backgroundColor: ColorConstance.mainblue,
       body: Center(
-        child: Image.asset(ImageConstance.LOGO_PNG),
+        child: CircleAvatar(
+            radius: 150,
+            child: Image.asset(fit: BoxFit.cover, ImageConstance.LOGO_PNG)),
       ),
     );
   }
